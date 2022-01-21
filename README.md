@@ -11,17 +11,18 @@ Make sure to :
 Also, cuda is already installed, but to use it,  you need to be on a node; no need to install it locally. 
 
 
-#######
+### User Guide ###
 
-There are 3 scripts in BertForDeprel : one for training a model from scratch -> pretrain.py,
-one for finetuning a model -> train.py
-and one to make the predictions (to parse on empty conll files) -> predict.py
+There are 3 scripts in BertForDeprel : 
+- one for training a model from scratch -> pretrain.py,
+- one for finetuning a model -> train.py
+- one to make the predictions (to parse on empty conll files) -> predict.py
 
 Each script is executed through a bash file : 
 
-bertfordeprel1.sh executes pretrain.py
-bertfordeprel2.sh executes train.py
-bertfordeprel3.sh executes predict.py
+- bertfordeprel1.sh executes pretrain.py
+- bertfordeprel2.sh executes train.py
+- bertfordeprel3.sh executes predict.py
 
 In these 3 files, change the " cd ...." line to your BertForDeprel directory. 
 
